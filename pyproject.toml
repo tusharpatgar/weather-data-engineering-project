@@ -1,0 +1,13 @@
+[project]
+name = "weather-data-engineering-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "apache-airflow-providers-github>=2.10.2",
+    "apache-airflow-providers-postgres>=6.5.2",
+    "apache-airflow[amazon]>=3.1.6",
+    "psycopg2-binary>=2.9.11",
+    "requests>=2.32.5",
+]

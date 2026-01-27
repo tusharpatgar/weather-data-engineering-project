@@ -41,3 +41,14 @@ Instructions will be added as the project evolves.
 
 ## 📌 Status
 🚧 Project under active development. Learning in public.
+
+
+## Running the project 
+1. Copy Environment variables
+    bash: cp .env.var .env
+
+2. Build Dockerfile 
+    docker build -t airflow
+3. Run Docker-compose
+    docker compose up -d
+4. for credentials refer .env.var
